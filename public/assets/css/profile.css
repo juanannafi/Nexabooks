@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Poppins" , sans-serif;
+    color: #B48E5E;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+nav{
+    width: 100%;
+    box-shadow: 0 2px 5px 0 #B48E5E60;
+    padding: 15px 30px;
+}
+
+nav .menu{
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+}
+
+main .profile{
+    margin: 45px;
+    position: relative;
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+main .profile img{
+    width: 220px;
+    height: 220px;
+}
+
+main .profile .edit{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 28px;
+}
+
+main div{
+    position: relative;
+    width: max-content;
+    height: max-content;
+}
+
+
+main div input{
+    width: 420px;
+    height: 45px;
+    border-radius: 5px;
+    outline: none;
+    border: 1.8px solid #B48E5E;
+    margin-bottom: 25px;
+    padding: 0 10px;
+    color: #B48E5E;
+    background-color: transparent;
+}
+
+main div label{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    margin: 0 0 0 10px;
+    background-color: white;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+main div .icon{
+    position: absolute;
+    left: 10px;
+    bottom: 50%;
+}
+
+main div .passwordIcon{
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    bottom: 50%;
+    width: 100%;
+    height: max-content;
+    z-index: 99;
+    cursor: pointer;
+}
+
+main div .passwordIcon span{
+    position: absolute;
+    right: 10px;
+    bottom: 100%;
+}
+
+nav aside{
+    left: 0;
+    top: 0;
+    height: 100%;
+    background-color: white;
+    box-shadow: 2px 0 5px 0 #B48E5E60;
+    display: flex;
+    flex-direction: column;
+    transform: translate(-100%);
+    transition: 0.1s ease-in-out;
+}
+
+#toggleButton{
+    cursor: pointer;
+}
+
+nav aside menu div{
+    display: flex;
+    gap: 1.5em;
+    /* border: 1px solid #B48E5E50; */
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav aside menu div .icon{
+    font-size: 30px;
+}
+
+nav aside menu{
+    padding: 10px 30px;
+    display: flex;
+    gap: 1.5em;
+    flex-direction: column;
+}
+
+nav aside .menu{
+    padding: 15px 40px;
+    width: 100%;
+    margin: 0 !important;
+    box-shadow: 0 2px 5px 0 #B48E5E60;
+}
+
+nav aside menu div:hover{
+    outline: 2px solid #B48E5E50;
+}
+
+main div .hide-icon{
+    display: none;
+}
+
+#off{
+    display: none;
+}
+

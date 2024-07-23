@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 55px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 55px;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #B48E5E;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.1s ease-in-out;
+    padding-bottom: 5px;
+}
+
+nav ul li a:hover{
+    border-bottom: 3px solid #B48E5E;
+}
+
+.auth-buttons button {
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: none;
+    background-color: transparent;
+    color: #B48E5E;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    outline: 1px solid #B48E5E;        
+}
+
+.auth-buttons .signup {
+    background-color: #c89966;
+    color: #fff;
+}
+
+/* templTE */
+body {
+    font-family: "Poppins", sans-serif;
+    background: white;
+    margin: 0;
+    color: #B48E5E;
+}
+
+.container {
+    padding: 4em 1em;
+}
+
+footer {
+    background:white;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100% auto;
+    padding:0;
+    margin: 0;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer {
+    background: white;
+}
+
+footer ul {
+    display:grid;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+footer ul li {
+    padding: 1.4em;
+    margin: 0.6em;
+    display:block;
+    font-size: 1.6em;
+    margin-top: 0;
+    color: #B48E5E;
+}
+
+img { 
+    justify-self: center;
+    max-width: 90%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3em;
+}

@@ -1,0 +1,122 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 950px;
+    background-color: #ffffff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.welcome-section {
+    background-color: #c29568;
+    color: #ffffff;
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.welcome-section h1 {
+    font-size: 2.6em;
+    margin-top: 12%;
+}
+
+.welcome-section .logo img {
+    width: 40%;
+    height: 40%;
+    margin-top: 20px;
+}
+
+.welcome-section h2 {
+    font-size: 2em;
+    font-weight: normal;
+}
+
+.login-section {
+    width: 50%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.login-section h1 {
+    font-size: 1.5em;
+    margin-bottom: 45px;
+    color: #B48E5E;
+}
+
+.login-section label {
+    display: block;
+    margin-top: 5%;
+    margin-bottom: 10px;
+    color: #B48E5E;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #c29568;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.login-section .forgot-password {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.login-section .forgot-password a {
+    color: #8c7b75;
+    text-decoration: none;
+}
+
+.login-section button {
+    width: 100%;
+    margin-top: 15%;
+    padding: 15px;
+    background-color: #c29568;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.login-section .signup {
+    margin-top: 20px;
+    text-align: center;
+    color: #B48E5E;
+}
+
+.login-section .signup a {
+    color: #c29568;
+    text-decoration: none;
+}
+
+.alert.alert-danger {
+    height: 50px;
+    align-items: center;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+
+.alert.alert-danger p {
+    padding: 10px;
+    margin: 0%;
+}
+
